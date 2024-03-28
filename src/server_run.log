@@ -1,0 +1,13 @@
+server start
+start listening
+socket：26 accept
+socket：26 receive：yvtc/rrLEbM+AYFnj7KODg==
+socket：26 start auth
+socket：26 return：{"code":0,"msg":"auth success"}
+socket：26 receive：{"jsonrpc":"2.0","method":"default:add","params":[1,2],"id":1}
+socket：26 return：{"code":0,"msg":"success","data":3}
+socket：26 receive：{"jsonrpc":"2.0","method":"default1:sub","params":[2,1],"id":1}
+socket：26 return：{"code":0,"msg":"success","data":1}
+socket：26 receive：close
+socket：26 close
+socket：26 return：{"code":0,"msg":"close socket"}

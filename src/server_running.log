@@ -1,0 +1,270 @@
+server start
+start listening
+server start
+start listening
+socket：26 accept
+socket：26 receive：yvtc/rrLEbM+AYFnj7KODg==
+socket：26 start auth
+socket：26 return：{"code":0,"msg":"auth success"}
+socket：26 receive：{"jsonrpc":"2.0","method":"default:add","params":[1,2],"id":1}
+socket：26 return：{"code":0,"msg":"success","data":3}
+socket：34 accept
+socket：34 receive：yvtc/rrLEbM+AYFnj7KODg==
+socket：34 start auth
+socket：34 return：{"code":0,"msg":"auth success"}
+socket：34 receive：{"jsonrpc":"2.0","method":"default:add","params":[1,2],"id":1}
+socket：34 return：{"code":0,"msg":"success","data":3}
+socket：26 receive：{"jsonrpc":"2.0","method":"default1:sub","params":[2,1],"id":1}
+socket：26 return：{"code":0,"msg":"success","data":1}
+socket：26 receive：close
+socket：26 close
+socket：26 return：{"code":0,"msg":"close socket"}
+socket：34 receive：{"jsonrpc":"2.0","method":"default1:sub","params":[2,1],"id":1}
+socket：34 return：{"code":0,"msg":"success","data":1}
+socket：34 receive：close
+socket：34 close
+socket：34 return：{"code":0,"msg":"close socket"}
+socket：35 accept
+socket：35 receive：yvtc/rrLEbM+AYFnj7KODg==
+socket：35 start auth
+socket：35 return：{"code":0,"msg":"auth success"}
+socket：35 receive：{"jsonrpc":"2.0","method":"default:add","params":[1,2],"id":1}
+socket：35 return：{"code":0,"msg":"success","data":3}
+socket：35 receive：{"jsonrpc":"2.0","method":"default1:sub","params":[2,1],"id":1}
+socket：35 return：{"code":0,"msg":"success","data":1}
+socket：35 receive：close
+socket：35 close
+socket：35 return：{"code":0,"msg":"close socket"}
+socket：36 accept
+socket：36 receive：yvtc/rrLEbM+AYFnj7KODg==
+socket：36 start auth
+socket：36 return：{"code":0,"msg":"auth success"}
+socket：36 receive：{"jsonrpc":"2.0","method":"default:add","params":[1,2],"id":1}
+socket：36 return：{"code":0,"msg":"success","data":3}
+socket：36 receive：{"jsonrpc":"2.0","method":"default1:sub","params":[2,1],"id":1}
+socket：36 return：{"code":0,"msg":"success","data":1}
+socket：36 receive：close
+socket：36 close
+socket：36 return：{"code":0,"msg":"close socket"}
+socket：0 accept
+server start
+start listening
+socket：25 accept
+socket：26 accept
+socket：26 receive：yvtc/rrLEbM+AYFnj7KODg==
+socket：26 start auth
+socket：26 return：{"code":0,"msg":"auth success"}
+socket：26 receive：{"jsonrpc":"2.0","method":"default:add","params":[1,2],"id":1}
+socket：26 return：{"code":0,"msg":"success","data":3}
+socket：26 receive：{"jsonrpc":"2.0","method":"default1:sub","params":[2,1],"id":1}
+socket：26 return：{"code":0,"msg":"success","data":1}
+socket：26 receive：close
+socket：26 close
+socket：26 return：{"code":0,"msg":"close socket"}
+server start
+start listening
+socket：25 accept
+socket：26 accept
+socket：26 receive：yvtc/rrLEbM+AYFnj7KODg==
+socket：26 start auth
+socket：26 return：{"code":0,"msg":"auth success"}
+socket：26 receive：{"jsonrpc":"2.0","method":"default:add","params":[1,2],"id":1}
+socket：26 return：{"code":0,"msg":"success","data":3}
+socket：26 receive：{"jsonrpc":"2.0","method":"default1:sub","params":[2,1],"id":1}
+socket：26 return：{"code":0,"msg":"success","data":1}
+socket：26 receive：close
+socket：26 close
+socket：26 return：{"code":0,"msg":"close socket"}
+socket：25 accept
+socket：34 accept
+socket：34 receive：yvtc/rrLEbM+AYFnj7KODg==
+socket：34 start auth
+socket：34 return：{"code":0,"msg":"auth success"}
+socket：34 receive：{"jsonrpc":"2.0","method":"default:add","params":[1,2],"id":1}
+socket：34 return：{"code":0,"msg":"success","data":3}
+socket：34 receive：{"jsonrpc":"2.0","method":"default1:sub","params":[2,1],"id":1}
+socket：34 return：{"code":0,"msg":"success","data":1}
+socket：34 receive：close
+socket：34 close
+socket：34 return：{"code":0,"msg":"close socket"}
+server start
+start listening
+socket：26 accept
+socket：26 receive：yvtc/rrLEbM+AYFnj7KODg==
+socket：26 start auth
+socket：26 return：{"code":0,"msg":"auth success"}
+socket：26 receive：{"jsonrpc":"2.0","method":"default:add","params":[1,2],"id":1}
+socket：26 return：{"code":0,"msg":"success","data":3}
+socket：26 receive：{"jsonrpc":"2.0","method":"default1:sub","params":[2,1],"id":1}
+socket：26 return：{"code":0,"msg":"success","data":1}
+socket：26 receive：close
+socket：26 close
+socket：26 return：{"code":0,"msg":"close socket"}
+socket：0 accept
+object(Exception)#9 (7) {
+  ["message":protected]=>
+  string(23) "Invalid file descriptor"
+  ["string":"Exception":private]=>
+  string(0) ""
+  ["code":protected]=>
+  int(0)
+  ["file":protected]=>
+  string(34) "/www/laravelRPC/src/Rpc/Server.php"
+  ["line":protected]=>
+  int(128)
+  ["trace":"Exception":private]=>
+  array(5) {
+    [0]=>
+    array(6) {
+      ["file"]=>
+      string(34) "/www/laravelRPC/src/Rpc/Server.php"
+      ["line"]=>
+      int(128)
+      ["function"]=>
+      string(11) "__construct"
+      ["class"]=>
+      string(5) "Event"
+      ["type"]=>
+      string(2) "->"
+      ["args"]=>
+      array(4) {
+        [0]=>
+        object(EventBase)#6 (0) {
+        }
+        [1]=>
+        bool(false)
+        [2]=>
+        int(18)
+        [3]=>
+        object(Closure)#14 (2) {
+          ["this"]=>
+          object(Zyyphper\LaravelRpc\Rpc\Server)#2 (6) {
+            ["config":protected]=>
+            array(6) {
+              ["method"]=>
+              int(1)
+              ["host"]=>
+              string(9) "127.0.0.1"
+              ["port"]=>
+              int(6666)
+              ["sock_type"]=>
+              int(6)
+              ["module_server"]=>
+              array(2) {
+                ["default"]=>
+                string(37) "Zyyphper\LaravelRpc\BaseServerService"
+                ["default1"]=>
+                string(37) "Zyyphper\LaravelRpc\BaseServerService"
+              }
+              ["auth_strategy"]=>
+              string(46) "Zyyphper\LaravelRpc\Rpc\Auth\SecretKeyStrategy"
+            }
+            ["eventArr":protected]=>
+            array(1) {
+              [26]=>
+              array(0) {
+              }
+            }
+            ["clientArr":protected]=>
+            array(2) {
+              [0]=>
+              resource(26) of type (Socket)
+              [1]=>
+              bool(false)
+            }
+            ["authClientArr":protected]=>
+            array(1) {
+              [26]=>
+              int(1)
+            }
+            ["socket":protected]=>
+            resource(25) of type (Socket)
+            ["eventBase":protected]=>
+            object(EventBase)#6 (0) {
+            }
+          }
+          ["parameter"]=>
+          array(2) {
+            ["$connectionSocket"]=>
+            string(10) "<required>"
+            ["$eventFlag"]=>
+            string(10) "<required>"
+          }
+        }
+      }
+    }
+    [1]=>
+    array(6) {
+      ["file"]=>
+      string(34) "/www/laravelRPC/src/Rpc/Server.php"
+      ["line"]=>
+      int(56)
+      ["function"]=>
+      string(15) "listenReadEvent"
+      ["class"]=>
+      string(30) "Zyyphper\LaravelRpc\Rpc\Server"
+      ["type"]=>
+      string(2) "->"
+      ["args"]=>
+      array(1) {
+        [0]=>
+        bool(false)
+      }
+    }
+    [2]=>
+    array(4) {
+      ["function"]=>
+      string(7) "connect"
+      ["class"]=>
+      string(30) "Zyyphper\LaravelRpc\Rpc\Server"
+      ["type"]=>
+      string(2) "->"
+      ["args"]=>
+      array(3) {
+        [0]=>
+        resource(25) of type (Socket)
+        [1]=>
+        int(1)
+        [2]=>
+        NULL
+      }
+    }
+    [3]=>
+    array(6) {
+      ["file"]=>
+      string(34) "/www/laravelRPC/src/Rpc/Server.php"
+      ["line"]=>
+      int(37)
+      ["function"]=>
+      string(8) "dispatch"
+      ["class"]=>
+      string(9) "EventBase"
+      ["type"]=>
+      string(2) "->"
+      ["args"]=>
+      array(0) {
+      }
+    }
+    [4]=>
+    array(6) {
+      ["file"]=>
+      string(29) "/www/laravelRPC/src/start.php"
+      ["line"]=>
+      int(12)
+      ["function"]=>
+      string(5) "start"
+      ["class"]=>
+      string(30) "Zyyphper\LaravelRpc\Rpc\Server"
+      ["type"]=>
+      string(2) "->"
+      ["args"]=>
+      array(0) {
+      }
+    }
+  }
+  ["previous":"Exception":private]=>
+  NULL
+}
+server close
+Caught SIGINT
+server close
